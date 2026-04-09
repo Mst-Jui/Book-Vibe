@@ -1,16 +1,61 @@
-# React + Vite
+# 📚 Book-Vibe
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Project Overview
+**Book-Vibe** is an interactive web application designed for book enthusiasts. It allows users to explore, sort, and view details of a collection of books. With a focus on clean UI and smooth UX, Book-Vibe helps users manage and discover books effortlessly.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
+- **React** – Core UI library for building components
+- **React Router DOM** – Client-side routing
+- **Context API** – State management across components
+- **Tailwind CSS / Custom CSS** – Styling and layout
+- **Local JSON / Fetch API** – For data handling
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ⚡ Main Features
+- Browse a list of books with cover images and details  
+- Sort books by pages, rating, or other attributes  
+- View detailed information for each book  
+- Responsive design for desktop and mobile  
+- Context-based global state management for efficient data sharing  
+- Easy-to-use interface with smooth navigation  
+
+---
+## 🚀 How to Run Locally
+1️⃣Clone the repository  
+git clone: https://github.com/Mst-Jui/Book-Vibe.git  
+cd Book-Vibe  
+2️⃣ Install dependencies  
+npm install  
+ 3️⃣Run the development server  
+npm run dev  
+
+---
+
+![Book-Vibe Screenshot](https://i.ibb.co/Z6z30Nyv/Frame-217.jpg)  
+*Screenshot showing the main interface of Book-Vibe.*
+
+---
+
+## 🔗 Relevant Links
+GitHub Repo: https://github.com/Mst-Jui/Book-Vibe  
+Live: https://book-vibe-site.netlify.app/
+
+---
+
+## 📦 Dependencies
+The project relies on the following key dependencies:
+
+```json
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
+    "tailwindcss": "^3.3.2"
+  }
+}
